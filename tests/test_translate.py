@@ -2,12 +2,13 @@
 """
 import pytest
 
-from src import translate, CronParsingException
+from cron_translator import translate, CronParsingException
 
 
 class TestCronTranslate(object):
     """
     """
+
     def test_translate(self):
         assert 'Every minute on Sunday' == translate('* * * * 0')
         assert 'Every minute on Sunday' == translate('* * * * 7')
