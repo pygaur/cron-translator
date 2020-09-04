@@ -2,7 +2,7 @@
 """
 import pytest
 
-from cron_translator import translate, CronParsingException
+from cron_translator import translate, CronParsingException  # noqa: F401
 
 
 class TestCronTranslate(object):
@@ -106,4 +106,3 @@ class TestCronTranslate(object):
             translate('* * * 0 *')
             translate('* * * 13 *')
             translate('* * * * 8')
-

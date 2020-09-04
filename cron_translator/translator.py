@@ -14,6 +14,3 @@ class Translate(object):
         :return:
         """
         raise CronParsingException
-
-
-

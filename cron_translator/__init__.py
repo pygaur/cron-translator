@@ -1,5 +1,5 @@
 from .translator import Translate
-from .exception import CronParsingException
+from .exception import CronParsingException  # noqa: F401
 
 
 def translate(cron):
