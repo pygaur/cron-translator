@@ -4,4 +4,3 @@
 
 def test():
     assert True
-
